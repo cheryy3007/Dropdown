@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+}
+.header{
+    width: 1444px;
+    height: 80px;
+    padding: 20px 40px 20px 40px;    
+    /*background: #0C0E1867;*/
+    background: #232028;
+}
+
+.nav h1{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.div{
+    width: 83px;
+    height: 32px;
+    color: #FFFFFF;    
+    border-radius: 22.23px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    position: relative;
+    bottom: 26px;
+    left: 290px;
+}
+
+.div ul li ul{
+    background:  #252028;
+    box-shadow: 0px 0px 11px 0px #FFFFFF;
+    position: absolute;
+    z-index: 1;
+    right: 3px;
+    top: 35px;
+    width: 99px;
+    height: 111px;
+    border-radius: 10px;
+    display: none;
+    margin-left: 15px;
+    margin-top: 25px;
+}
+.div ul li ul li{
+    width: 78px;
+    height: 20px;
+    background-color: #030303;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-top: 12px;
+}
+.naruto{
+    position: relative;
+    top: 20px;
+    right: 1000px;
+}
+.voln{
+    padding-left: 22px;
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 24px;
+}
+.omake{
+    padding-left: 22px;
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 24px;
+}
+.arte{
+    padding-left: 15px;
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.nav ul li:hover > ul{
+    display: initial;
+}
+.nav h2{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #FFFFFF;
+    position: relative;
+    bottom: 44px;
+    left: 1090px;
+}
+.btn{
+    width: 175px;
+    height: 50px;
+    background: #BFAFF2;
+    border-radius: 15px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: center;
+    border: none;
+    color: #333333;
+    position: relative;
+    bottom: 80px;
+    left: 1211px;
+}
+.header-content{
+    width: 1444px;
+    height: 900px;
+    background:  #515080;
+    position: relative;
+    bottom: 75px;
+    right: 40px;
+}
+.cards{
+    display: flex;
+}
+.card img{
+    position: relative;
+    top: 150px;
+    left: 75px;
+}
+.card_text{
+    width: 325px;
+    height: 240px;
+    border-radius: 32px;
+    background: #232028;
+    margin-top: 92px;
+    margin-left: 28px;
+}
+.card_text h3{
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 38.4px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 75px;
+}
+.card_text p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.8px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 10px;
+}
+.content{
+    width: 1444px;
+    height: 69px;
+    padding: 20px 40px 20px 40px;    
+    background: black;
+    position: relative;
+    bottom: 90px;
+    right: 40px;
+}
+.nav ul{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #FFFFFF;
+    display: flex;
+    margin-top: -20px;
+    margin-left: 1050px;
+    gap: 40px;
+}
